@@ -1,0 +1,3 @@
+Versie Beheer Systeem = True
+Functioneel Ontwerp   = False
+Hoofd Pagina + Menu   = False
