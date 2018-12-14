@@ -1,3 +1,4 @@
+<?php include 'connect.php'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -62,39 +63,20 @@
     <div class="container site-section" id="gallery">
         <h1>Onze Top Producten</h1>
         <div class="row">
+            <?php
+            $sql = "SELECT Afbeelding FROM Siervuurwerk";
+            $result = $dbcon->query($sql);
+            if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+              ?>
+            
             <div class="col-md-4">
-                <div class="thumbnail"><a href="vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-crazy-fire.jpg"></a></div>
+                <div class="thumbnail"><a href=<?= '"'. $row["Afbeelding"] . '"' ?> target="_blank" data-lightbox="fwork"><img class="img-responsive" src=<?= '"'. $row["Afbeelding"] . '"' ?>></a></div>
             </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="vuurwerk-partypakket-groot.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-partypakket-groot.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-crazy-fire.jpg"></a></div>
-            </div>
+
+            <?php } }?>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-partypakket-groot.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-partypakket-groot.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-partypakket-groot.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-partypakket-groot.jpg"></a></div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
-            </div>
-        </div>
-    </div>
     <footer>
         <div class="container">
             <div class="row">
