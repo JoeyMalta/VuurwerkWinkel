@@ -5,19 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>VuurwerkWinkel</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="Pretty-Footer.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header"><a class="navbar-brand" href="#"><img src="assets/img/firework01.png" id="logo"><strong>FireworkWizards</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <div class="navbar-header"><a class="navbar-brand" href="#"><img src="firework01.png" id="logo"><strong>FireworkWizards</strong></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -29,7 +29,7 @@
         </div>
         </div>
     </nav>
-    <div id="promo" style="background-image: url(&quot;assets/img/background.jpg.jpg&quot;);">
+    <div id="promo" style="background-image: url(&quot;background.jpg.jpg&quot;);">
         <div class="jumbotron">
             <h1>Knallend Vuurwerk! </h1>
             <p>Het beste vuurwerk van Nederland! </p>
@@ -63,13 +63,13 @@
         <h1>Onze Top Producten</h1>
         <div class="row">
             <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
+                <div class="thumbnail"><a href="vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-crazy-fire.jpg"></a></div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-partypakket-groot.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-partypakket-groot.jpg"></a></div>
+                <div class="thumbnail"><a href="vuurwerk-partypakket-groot.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-partypakket-groot.jpg"></a></div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail"><a href="assets/img/vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="assets/img/vuurwerk-crazy-fire.jpg"></a></div>
+                <div class="thumbnail"><a href="vuurwerk-crazy-fire.jpg" target="_blank" data-lightbox="cakes"><img class="img-responsive" src="vuurwerk-crazy-fire.jpg"></a></div>
             </div>
         </div>
         <div class="row">
@@ -123,8 +123,8 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
